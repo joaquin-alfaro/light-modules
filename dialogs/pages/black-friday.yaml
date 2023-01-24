@@ -38,10 +38,13 @@ form:
   layout:
     $type: tabbedLayout
     tabs:
-      tabMain:
-        label: Main tab
+      tabProduct:
+        label: Product
         fields:
           - name: productId
+      tabPage:
+        label: Web Page
+        fields:
           - name: title
           - name: subtitle
           - name: navigationTitle

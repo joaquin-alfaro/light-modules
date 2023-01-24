@@ -1,0 +1,13 @@
+# Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+label: summary
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+    body:
+      label: Body
+      $type: richTextField
+      i18n: true

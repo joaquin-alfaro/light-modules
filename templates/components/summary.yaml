@@ -1,0 +1,4 @@
+title: Summary with text
+renderType: freemarker
+templateScript: /landings/templates/components/summary.ftl
+dialog: landings:components/summary

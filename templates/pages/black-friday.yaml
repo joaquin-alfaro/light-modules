@@ -3,3 +3,26 @@ templateScript: /landings/templates/pages/black-friday.ftl
 renderType: freemarker
 dialog: landings:pages/black-friday
 visible: true
+
+areas:
+  navbar:
+    # navigation bar
+  hero:
+    # header area configuration
+  summary:
+    renderType: freemarker
+    type: single
+    availableComponents:
+      text:
+        id: landings:components/summary
+      image:
+        id: landings:components/summaryImage
+    optional: false
+  cards:
+    renderType: freemarker
+    type: list
+    availableComponents:
+      text:
+        id: landings:components/card
+  footer:
+    # footer area configuration
