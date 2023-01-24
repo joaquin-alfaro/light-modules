@@ -1,0 +1,5 @@
+title: black-friday
+templateScript: /landings/templates/pages/black-friday.ftl
+renderType: freemarker
+dialog: landings:pages/black-friday
+visible: true
