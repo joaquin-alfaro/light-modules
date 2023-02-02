@@ -14,7 +14,8 @@
     </header>
     [@cms.area name="hero"/]
     <div class="container">
-      <h1>${content.productId!} works!</h1>
+      <h1>${byffn.username!}</h1>
+      <h1>${byffn.getUsername()!}</h1>
       [@cms.area name="summary"/]
       <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1643751305531">
         [@cms.area name="cards"/]
